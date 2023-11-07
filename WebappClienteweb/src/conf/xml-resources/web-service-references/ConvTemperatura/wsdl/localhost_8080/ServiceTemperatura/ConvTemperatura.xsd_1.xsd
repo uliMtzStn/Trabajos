@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://Servicio/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://Servicio/">
+
+<xs:element name="Cent_Far" type="tns:Cent_Far"/>
+
+<xs:element name="Cent_FarResponse" type="tns:Cent_FarResponse"/>
+
+<xs:element name="Far_Cent" type="tns:Far_Cent"/>
+
+<xs:element name="Far_CentResponse" type="tns:Far_CentResponse"/>
+
+<xs:complexType name="Far_Cent">
+<xs:sequence>
+<xs:element name="gFahr" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Far_CentResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Cent_Far">
+<xs:sequence>
+<xs:element name="gCent" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Cent_FarResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

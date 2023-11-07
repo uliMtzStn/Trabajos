@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilo_2.css">
+    <title>Practica 3</title>
+</head>
+<body>
+    <form>
+    <table>
+        <caption>Formulario</caption>
+    <thead>
+        <tr>
+            
+            <td><label>Alumno 1</label>
+            <br>
+            <label>Nombre</label>
+            <input>
+            <br>
+            <br>
+            <label>Apellido</label>
+            <input><br><br></td>
+            <td><label>Alumno 2</label>
+            <br>
+            <label>Nombre</label>
+            <input>
+            <br>
+            <br>
+            <label>Apellido</label>
+            <input><br><br></td>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><label>Contraseña</label><input type="password"></td>
+        <td>Grupo 1 <input checked type="radio"name="Grupo" value="Grupo 1"> Grupo 2 
+        <input type="radio"name="Grupo" value="Grupo 2">
+        </td>
+    </tr>
+    <tr>
+        <td><h5>Lenguajes de programacion</h5>
+        <label>c</label>
+        <input checked type="checkbox"name="Lenguajes de programacion" value="c">
+        <label>c++</label>
+        <input type="checkbox"name="Lenguajes de programacion" value="c++">
+        <label>java</label>
+        <input type="checkbox"name="Lenguajes de programacion" value="java">
+        <label>otro</label>
+        <input type="checkbox"name="Lenguajes de programacion" value="otro">
+        </td>
+        <td><select name="opciones">
+            <option value="fotos">fotos</option>
+            <optgroup label="Practica 1">
+            <option value="html">html</option>
+            <option value="cgi">cgi</option>
+            <option value="todo">todo</option>
+            </optgroup>
+            <optgroup label="Practica 2">
+            <option value="html">html</option>
+            <option value="memoria">memoria</option>
+            <option value="todo">todo</option>
+            </optgroup>
+         </td>
+    </tr>
+    <tr>
+         <td rowspan="3"colspan="2" class="com"><h3><center>Comentarios:</h3><textarea name="comentarios"
+          cols="70" rows="10"></textarea></center></td>
+    </tr>
+    <tfoot>
+    <tr>
+        <td colspan="1"></td>
+        <td><input type="submit"><input type="reset"></td>
+    </tr>
+</tfoot>
+</table>
+</tbody>
+</form>
+</body>
+</html>

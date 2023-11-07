@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Elementos seleccionables</title>
+</head>
+
+<form>
+    <h1>Datos personales</h1>
+    <!--La forma que utilizaremos para el radiobutton-->
+    <h2>Genero</h2>
+    <label>
+        Masculino
+        <input checked type="radio"name="genero" value="masculino">
+    </label>
+    <label>
+        Femenino
+        <input type="radio"name="genero" value="femenino">
+    </label>
+
+    <label>
+        Otro
+        <input type="radio"name="genero" value="otro">
+    </label>
+
+<h2>Pasatiempos</h2>
+<label>
+    jugar videojuegos
+    <input checked type="checkbox"name="pasatiempos" value="jugar videojuegos">
+</label>
+<label>
+    comer
+    <input type="checkbox"name="pasatiempos" value="comer">
+</label>
+
+<label>
+    jugar futbol
+    <input type="checkbox"name="pasatiempos" value="jugar futbol">
+</label>
+<label>
+    salir con mis amigos
+    <input type="checkbox"name="pasatiempos" value="salir con mis amigos">
+</label>
+
+<h2>Lenguajes</h2>
+<select name="Lenguajes">
+    <option value="java">java</option>
+    <option value="c++">c++</option>
+    <option value="phyton">phyton</option>
+    <option value="php">php</option>
+</select>
+
+<h2>Tecnologias de desarrollo</h2>
+<select name="Tecnologias">
+    <optgroup label="Lenguajes de lado del cliente">
+    <option value="javaScript">javaScript</option>
+    <option value="ajax">ajax</option>
+</optgroup>
+
+    <optgroup label="Lenguajes de lado del servidor">
+    <option value="jsp">jsp</option>
+    <option value="asp">asp</option>
+    <option value="php">php</option>
+</optgroup>
+</select>
+<h2>comentarios</h2>
+<textarea name="comentarios"
+cols="30" rows="10"></textarea>
+</form>
+</body>
+</html>
